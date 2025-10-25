@@ -3,12 +3,12 @@ from src.helper import download_hugging_face_embeddings
 from langchain_pinecone import PineconeVectorStore
 from pinecone import Pinecone, ServerlessSpec
 from langchain.prompts import PromptTemplate
-from langchain_community.llms import CTransformers
 from langchain_openai import OpenAI
 from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains.llm import LLMChain
 from langchain_core.prompts import ChatPromptTemplate
+
 
 from langchain.chains import RetrievalQA
 from dotenv import load_dotenv
