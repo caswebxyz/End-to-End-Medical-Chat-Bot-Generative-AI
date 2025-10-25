@@ -35,7 +35,10 @@ PyYAML
 SQLAlchemy
 aiohttp
 dataclasses-json
-
+protobuf 
+grpcio 
+google-api-core 
+googleapis-common-protos
 # --- HuggingFace ---
 huggingface-hub
 -e .
