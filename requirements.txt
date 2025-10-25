@@ -1,0 +1,41 @@
+# --- LangChain ecosystem ---
+langchain
+langchain-community
+langchain-openai
+langchain-pinecone
+langchain-experimental
+
+# --- Vector DBs ---
+pinecone-client
+pinecone
+
+# --- Embeddings / Models ---
+sentence-transformers
+ctransformers
+transformers
+torch
+torchvision
+
+# --- Flask Web App ---
+flask
+flask-cors
+
+# --- PDF & Environment Utils ---
+pypdf
+python-dotenv
+
+# --- General Support ---
+tqdm
+numpy
+scikit-learn
+scipy
+nltk
+sentencepiece
+PyYAML
+SQLAlchemy
+aiohttp
+dataclasses-json
+
+# --- HuggingFace ---
+huggingface-hub
+-e .
